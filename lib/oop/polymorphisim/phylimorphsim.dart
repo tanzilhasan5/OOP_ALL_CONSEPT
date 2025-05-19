@@ -1,4 +1,6 @@
 class Human {
+
+// this is method
   void eating(){
     print('this human is eating');
   }
@@ -6,6 +8,8 @@ class Human {
     print('This human is Moving');
   }
 }
+// copy behaviour 
+
 class Studetn extends Human{
   void joiningClasses(){
     print('Student joining class Via Zoom');
