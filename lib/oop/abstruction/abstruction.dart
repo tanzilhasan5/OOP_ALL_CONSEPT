@@ -31,6 +31,8 @@ class BankAccount{
   String address;
   double _blance = 0;
   double _tax =0;
+//this is named paramiter
+
   BankAccount({required this.username,required this.address});
   double getBlance(){
     return _blance;
